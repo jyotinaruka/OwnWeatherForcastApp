@@ -1,0 +1,59 @@
+#wrapper {
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	border: 1px #99e6f3 solid;
+	background: linear-gradient(lightblue, white, lightblue);
+	box-shadow: 3px 5px #99e6f3;
+}
+#loader {
+	margin: 20px auto;
+	height: 50px;
+	display: none;
+}
+header {
+	text-align: left;
+}
+img {
+	margin: 20px;
+	width: 60px;
+	height: 60px;
+	animation-name: spin;
+	animation-duration: 6000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	vertical-align: middle;
+}
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+h1 {
+	padding: 15px 0 20px 20px;
+	display: inline-block;
+}
+
+form {
+	font-size: 20px;
+}
+
+input {
+	font-size: 15px;
+}
+
+#info {
+	text-align: left;
+	padding: 10px 10px 20px 125px;
+}
+h2 {
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+#info p {
+	margin-top: 10px;
+}

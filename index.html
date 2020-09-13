@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Search Weather</title>
+        <link rel="stylesheet" href="weather.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="weather.js"></script>       
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="sun.png" alt="">
+                <h1>Search Weather</h1>
+            </header>
+            <form>
+                <label for="location">Location:</label>
+                <input type="text" id="location">
+                <input type="submit" value="Search the weather">
+            </form>
+            <div id="loader">...</div>
+            <div id="info">
+                <h2></h2>
+                <p></p>
+            </div>
+        </div>
+    </body>
+</html>
